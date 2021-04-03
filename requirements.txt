@@ -1,0 +1,17 @@
+torch==1.8.1
+faiss-cpu==1.7.0
+boto3==1.17.44
+annoy==1.17.0
+transformers==4.4.2
+quantulum3==0.7.6
+pandarallel==1.5.2
+record-keeper==0.9.30
+torchcontrib==0.0.2
+tensorboard==2.4.1
+swifter==1.0.7
+pytorch-metric-learning==0.9.98
+scikit-learn==0.24.1
+spacy==3.0.5
+wandb==0.10.24
+kaggle==1.5.12
+wordcloud==1.8.1
