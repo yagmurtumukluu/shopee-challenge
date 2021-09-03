@@ -16,7 +16,7 @@ def get_data_csv(test_split: int):
     dataset = []
     for product_id, group in df.groupby(by="label_group"):
         if len(group) >= 2:
-            for row in group.iterrows():
+            for _, row in group.iterrows():
                 sample = {'product_id': product_id,
                           'title': row['title']}
                 dataset.append(sample)

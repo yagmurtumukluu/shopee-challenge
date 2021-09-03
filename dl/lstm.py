@@ -10,7 +10,7 @@ class LSTMClassifier(nn.Module):
             embed_size=128,
             output_size=128,
             lstm_units=128,
-            num_layers=2,
+            num_layers=1,
             dropout=0.2,
             bidirectional=True
     ):
